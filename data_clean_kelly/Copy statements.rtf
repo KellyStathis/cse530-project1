@@ -1,0 +1,16 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf760
+{\fonttbl\f0\fnil\fcharset0 Monaco;\f1\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\csgenericrgb\c0\c0\c0;\cssrgb\c0\c0\c0;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs20 \cf2 \CocoaLigature0 \\copy school1 (opeid, street, city, state, statedesc, zip, programlengthcode, schooltypecode, ethnicaffiliationcode) FROM '/home/warehouse/kstathis/cse530/clean_data/SCHOOL/school_def_atr.csv' DELIMITER ',' CSV;\
+\
+\\copy school2 (opeid, institutionname, publicprivate) FROM '/home/warehouse/kstathis/cse530/clean_data/SCHOOL/school_loan_atr.csv' DELIMITER ',' CSV;\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf2 \\copy defaultrateinfo (opeid, cohortyear, numdefault, numborrowers, defaultrate, ratetype) FROM '/home/warehouse/kstathis/cse530/clean_data/DEFAULTRATEINFO/DEFAULTRATEINFO_2011.csv' DELIMITER ',' CSV;
+\f1\fs24 \cf3 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \outl0\strokewidth0 \strokec3 \
+}
